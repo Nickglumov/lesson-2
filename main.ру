@@ -1,0 +1,24 @@
+from transliterate import translit
+>>> print(translit("""Ladies and gentlemen, I'm 78 years old and I finally got 15 minutes of fame once in a lifetime an\d I guess that this is mine. People have also told me to make these next few minutes escruciatingly embarrassing and to\ take vengeance of my enemies. Neither will happen.More than 3 years ago I moved to Novo-Novsk, but worked on new Magne\tic Storage for last 40. When I was 8...""",'ru'))
+Ладиес анд гентлемен, ИЬм 78 ыеарс олд анд И финаллы гот 15 минутес оф фаме онце ин а лифетиме анд И гуесс тхат тхис ис мине. Пеопле хаве алсо толд ме то маке тхесе неxт феw минутес есцруциатинглы ембаррассинг анд то таке венгеанце оф мы енемиес. Неитхер wилл хаппен.Море тхан 3 ыеарс аго И мовед то Ново-Новск, бут wоркед он неw Магнетиц Стораге фор ласт 40. Wхен И wас 8...
+>>> from num2words import num2words
+>>> print(num2words(78))
+seventy-eight
+>>> print(num2words(15))
+fifteen
+>>> print(num2words(3))
+three
+>>> print(num2words(40))
+forty
+>>> print(num2words(8))
+eight
+>>> from transliterate import translit
+>>> print(translit("seventy-eight", 'ru'))
+севенты-еигхт
+>>> print(translit("fifteen", 'ru'))
+фифтеен
+>>> print(translit("three", 'ru'))
+тхрее
+>>> print(translit("forty", 'ru'))
+форты
+>>> print(translit("eight", 'ru'))
