@@ -1,4 +1,3 @@
-from transliterate import translit
 from num2words import num2words
 from transliterate import translit
 
@@ -8,4 +7,3 @@ print(translit(num2words('15'),"ru"))
 print(translit(num2words('3'),"ru"))
 print(translit(num2words('40'),"ru"))
 print(translit(num2words('8'),"ru"))
-
