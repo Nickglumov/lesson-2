@@ -2,7 +2,7 @@ import smtplib
 
 server= smtplib.SMTP_SSL('smtp.yandex.ru',465)
 server.login('glum0vnick@yandex.ru','m314Gs14')
-server.sendmail('glum0vnick@yandex.ru', 'glum0vnick@yandex.ru','letter')
+server.sendmail('glum0vnick@yandex.ru', 'nekitglum@gmail.com','letter')
 server.quit()
 
 
